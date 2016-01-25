@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#define WEAKSELF                __weak __typeof(self)weakSelf = self;
+#define STRONGSELF              __strong __typeof(weakSelf)strongSelf = weakSelf;
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

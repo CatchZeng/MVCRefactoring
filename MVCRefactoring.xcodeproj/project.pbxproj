@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D722A851C566372008700A8 /* CATBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D722A841C566372008700A8 /* CATBaseService.m */; };
 		5D7BE6B61C54DE1800B1A20D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6B51C54DE1800B1A20D /* main.m */; };
 		5D7BE6B91C54DE1800B1A20D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6B81C54DE1800B1A20D /* AppDelegate.m */; };
 		5D7BE6BC1C54DE1800B1A20D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6BB1C54DE1800B1A20D /* ViewController.m */; };
 		5D7BE6BF1C54DE1800B1A20D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6BD1C54DE1800B1A20D /* Main.storyboard */; };
 		5D7BE6C11C54DE1800B1A20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6C01C54DE1800B1A20D /* Assets.xcassets */; };
 		5D7BE6C41C54DE1800B1A20D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6C21C54DE1800B1A20D /* LaunchScreen.storyboard */; };
+		5D7BE6DE1C54DF4B00B1A20D /* CATTeacherLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6DC1C54DF4B00B1A20D /* CATTeacherLoginViewController.m */; };
+		5D7BE6DF1C54DF4B00B1A20D /* CATTeacherLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6DD1C54DF4B00B1A20D /* CATTeacherLoginViewController.xib */; };
+		5D7BE6E21C54DF7300B1A20D /* CATLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6E11C54DF7300B1A20D /* CATLoginController.m */; };
+		5D7BE6E51C54DF8300B1A20D /* CATUserEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6E41C54DF8300B1A20D /* CATUserEntity.m */; };
+		5D7BE6E81C54DF9200B1A20D /* CATLoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6E71C54DF9200B1A20D /* CATLoginService.m */; };
+		5D7BE6EC1C54DFD300B1A20D /* CATStudentLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6EA1C54DFD300B1A20D /* CATStudentLoginViewController.m */; };
+		5D7BE6ED1C54DFD300B1A20D /* CATStudentLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6EB1C54DFD300B1A20D /* CATStudentLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D722A831C566372008700A8 /* CATBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATBaseService.h; sourceTree = "<group>"; };
+		5D722A841C566372008700A8 /* CATBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATBaseService.m; sourceTree = "<group>"; };
 		5D7BE6B11C54DE1800B1A20D /* MVCRefactoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCRefactoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7BE6B51C54DE1800B1A20D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D7BE6B71C54DE1800B1A20D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,18 @@
 		5D7BE6C01C54DE1800B1A20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D7BE6C31C54DE1800B1A20D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D7BE6C51C54DE1800B1A20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D7BE6DB1C54DF4B00B1A20D /* CATTeacherLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATTeacherLoginViewController.h; sourceTree = "<group>"; };
+		5D7BE6DC1C54DF4B00B1A20D /* CATTeacherLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATTeacherLoginViewController.m; sourceTree = "<group>"; };
+		5D7BE6DD1C54DF4B00B1A20D /* CATTeacherLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATTeacherLoginViewController.xib; sourceTree = "<group>"; };
+		5D7BE6E01C54DF7300B1A20D /* CATLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATLoginController.h; sourceTree = "<group>"; };
+		5D7BE6E11C54DF7300B1A20D /* CATLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATLoginController.m; sourceTree = "<group>"; };
+		5D7BE6E31C54DF8300B1A20D /* CATUserEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATUserEntity.h; sourceTree = "<group>"; };
+		5D7BE6E41C54DF8300B1A20D /* CATUserEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATUserEntity.m; sourceTree = "<group>"; };
+		5D7BE6E61C54DF9200B1A20D /* CATLoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATLoginService.h; sourceTree = "<group>"; };
+		5D7BE6E71C54DF9200B1A20D /* CATLoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATLoginService.m; sourceTree = "<group>"; };
+		5D7BE6E91C54DFD300B1A20D /* CATStudentLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATStudentLoginViewController.h; sourceTree = "<group>"; };
+		5D7BE6EA1C54DFD300B1A20D /* CATStudentLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATStudentLoginViewController.m; sourceTree = "<group>"; };
+		5D7BE6EB1C54DFD300B1A20D /* CATStudentLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CATStudentLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +64,7 @@
 		5D7BE6A81C54DE1800B1A20D = {
 			isa = PBXGroup;
 			children = (
+				5D7BE6D51C54DF4B00B1A20D /* MVC */,
 				5D7BE6B31C54DE1800B1A20D /* MVCRefactoring */,
 				5D7BE6B21C54DE1800B1A20D /* Products */,
 			);
@@ -77,6 +100,68 @@
 				5D7BE6B51C54DE1800B1A20D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D7BE6D51C54DF4B00B1A20D /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6D61C54DF4B00B1A20D /* Controller */,
+				5D7BE6D71C54DF4B00B1A20D /* Model */,
+				5D7BE6DA1C54DF4B00B1A20D /* View */,
+			);
+			name = MVC;
+			path = MVCRefactoring/MVC;
+			sourceTree = "<group>";
+		};
+		5D7BE6D61C54DF4B00B1A20D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6E01C54DF7300B1A20D /* CATLoginController.h */,
+				5D7BE6E11C54DF7300B1A20D /* CATLoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D7BE6D71C54DF4B00B1A20D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6D81C54DF4B00B1A20D /* Entity */,
+				5D7BE6D91C54DF4B00B1A20D /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D7BE6D81C54DF4B00B1A20D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6E31C54DF8300B1A20D /* CATUserEntity.h */,
+				5D7BE6E41C54DF8300B1A20D /* CATUserEntity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5D7BE6D91C54DF4B00B1A20D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5D722A831C566372008700A8 /* CATBaseService.h */,
+				5D722A841C566372008700A8 /* CATBaseService.m */,
+				5D7BE6E61C54DF9200B1A20D /* CATLoginService.h */,
+				5D7BE6E71C54DF9200B1A20D /* CATLoginService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5D7BE6DA1C54DF4B00B1A20D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6DB1C54DF4B00B1A20D /* CATTeacherLoginViewController.h */,
+				5D7BE6DC1C54DF4B00B1A20D /* CATTeacherLoginViewController.m */,
+				5D7BE6DD1C54DF4B00B1A20D /* CATTeacherLoginViewController.xib */,
+				5D7BE6E91C54DFD300B1A20D /* CATStudentLoginViewController.h */,
+				5D7BE6EA1C54DFD300B1A20D /* CATStudentLoginViewController.m */,
+				5D7BE6EB1C54DFD300B1A20D /* CATStudentLoginViewController.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +223,8 @@
 			files = (
 				5D7BE6C41C54DE1800B1A20D /* LaunchScreen.storyboard in Resources */,
 				5D7BE6C11C54DE1800B1A20D /* Assets.xcassets in Resources */,
+				5D7BE6DF1C54DF4B00B1A20D /* CATTeacherLoginViewController.xib in Resources */,
+				5D7BE6ED1C54DFD300B1A20D /* CATStudentLoginViewController.xib in Resources */,
 				5D7BE6BF1C54DE1800B1A20D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7BE6E21C54DF7300B1A20D /* CATLoginController.m in Sources */,
+				5D7BE6EC1C54DFD300B1A20D /* CATStudentLoginViewController.m in Sources */,
 				5D7BE6BC1C54DE1800B1A20D /* ViewController.m in Sources */,
+				5D722A851C566372008700A8 /* CATBaseService.m in Sources */,
+				5D7BE6E51C54DF8300B1A20D /* CATUserEntity.m in Sources */,
 				5D7BE6B91C54DE1800B1A20D /* AppDelegate.m in Sources */,
+				5D7BE6DE1C54DF4B00B1A20D /* CATTeacherLoginViewController.m in Sources */,
 				5D7BE6B61C54DE1800B1A20D /* main.m in Sources */,
+				5D7BE6E81C54DF9200B1A20D /* CATLoginService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +393,7 @@
 				5D7BE6CA1C54DE1800B1A20D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
